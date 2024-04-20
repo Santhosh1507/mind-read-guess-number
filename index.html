@@ -225,16 +225,17 @@
     }
 
     function clearbtn() {
+        totalValue = 0;
         document.getElementById("display").textContent = "";
 
-        document.getElementById('buttonA').style.backgroundColor = '#007bff';
-        document.getElementById('buttonB').style.backgroundColor = '#007bff';
-        document.getElementById('buttonC').style.backgroundColor = '#007bff';
-        document.getElementById('buttonD').style.backgroundColor = '#007bff';
         document.getElementById('submitButton').style.backgroundColor = '#007bff';
     }
 
     function submitValue() {
+        document.getElementById('buttonA').style.backgroundColor = '#007bff';
+        document.getElementById('buttonB').style.backgroundColor = '#007bff';
+        document.getElementById('buttonC').style.backgroundColor = '#007bff';
+        document.getElementById('buttonD').style.backgroundColor = '#007bff';
 
         document.getElementById("display").textContent = totalValue;
     }
