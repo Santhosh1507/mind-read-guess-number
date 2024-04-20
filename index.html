@@ -227,6 +227,10 @@
     function clearbtn() {
         totalValue = 0;
         document.getElementById("display").textContent = "";
+        document.getElementById('buttonA').style.backgroundColor = '#007bff';
+        document.getElementById('buttonB').style.backgroundColor = '#007bff';
+        document.getElementById('buttonC').style.backgroundColor = '#007bff';
+        document.getElementById('buttonD').style.backgroundColor = '#007bff';
 
         document.getElementById('submitButton').style.backgroundColor = '#007bff';
     }
@@ -270,15 +274,15 @@
         event.target.style.backgroundColor = '#28a745';
     }
     function changeButtonColorC(event) {
-        buttonB.style.backgroundColor = '#007bff';
+        buttonC.style.backgroundColor = '#007bff';
         event.target.style.backgroundColor = '#28a745';
     }
     function changeButtonColorD(event) {
-        buttonB.style.backgroundColor = '#007bff';
+        buttonD.style.backgroundColor = '#007bff';
         event.target.style.backgroundColor = '#28a745';
     }
     function changeButtonColor(event) {
-        buttonB.style.backgroundColor = '#007bff';
+        submitButton.style.backgroundColor = '#007bff';
         event.target.style.backgroundColor = '#28a745';
     }
 
